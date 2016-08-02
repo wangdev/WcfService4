@@ -1,4 +1,5 @@
 D:\OneDrive\Ywang\Projects\WcfService4\EmployeeWcfService\bin\Debug\EmployeeWcfService.dll
 D:\OneDrive\Ywang\Projects\WcfService4\EmployeeWcfService\bin\Debug\EmployeeWcfService.pdb
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeWcfService\obj\Debug\EmployeeWcfService.csprojResolveAssemblyReference.cache
 D:\OneDrive\Ywang\Projects\WcfService4\EmployeeWcfService\obj\Debug\EmployeeWcfService.dll
 D:\OneDrive\Ywang\Projects\WcfService4\EmployeeWcfService\obj\Debug\EmployeeWcfService.pdb

@@ -40,19 +40,26 @@ namespace EmployeeWcfService {
             using (SqlConnection con = new SqlConnection(cs)) {
                 SqlCommand cmd = new SqlCommand("SaveEmployee", con);
                 cmd.CommandType = CommandType.StoredProcedure;
-                SqlParameter[] sqlParameters = new SqlParameter[4];
-                sqlParameters[0].ParameterName = "@Id";
-                sqlParameters[1].ParameterName = "@Name";
-                sqlParameters[2].ParameterName = "@Gender";
-                sqlParameters[3].ParameterName = "@DateOfBirth";
-                sqlParameters[0].Value = emp.Id;
-                sqlParameters[1].Value = emp.Name;
-                sqlParameters[2].Value = emp.Gender;
-                sqlParameters[3].Value = emp.DateOfBirth;
-                cmd.Parameters.Add(sqlParameters[0]);
-                cmd.Parameters.Add(sqlParameters[1]);
-                cmd.Parameters.Add(sqlParameters[2]);
-                cmd.Parameters.Add(sqlParameters[3]);
+                SqlParameter parameterId = new SqlParameter {
+                    ParameterName = "@Id",
+                    Value = emp.Id
+                };
+                cmd.Parameters.Add(parameterId);
+                SqlParameter parameterName = new SqlParameter {
+                    ParameterName = "@Name",
+                    Value = emp.Name
+                };
+                cmd.Parameters.Add(parameterName);
+                SqlParameter parameterGender = new SqlParameter {
+                    ParameterName = "@Gender",
+                    Value = emp.Gender
+                };
+                cmd.Parameters.Add(parameterGender);
+                SqlParameter parameterDateOfBirth = new SqlParameter {
+                    ParameterName = "@DateOfBirth",
+                    Value = emp.DateOfBirth
+                };
+                cmd.Parameters.Add(parameterDateOfBirth);
                 con.Open();
                 cmd.ExecuteNonQuery();
             }
