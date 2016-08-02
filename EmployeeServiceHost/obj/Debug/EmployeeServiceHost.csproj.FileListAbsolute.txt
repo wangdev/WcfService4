@@ -1,0 +1,8 @@
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\bin\Debug\EmployeeServiceHost.exe.config
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\bin\Debug\EmployeeServiceHost.exe
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\bin\Debug\EmployeeServiceHost.pdb
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\bin\Debug\EmployeeWcfService.dll
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\bin\Debug\EmployeeWcfService.pdb
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\obj\Debug\EmployeeServiceHost.csprojResolveAssemblyReference.cache
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\obj\Debug\EmployeeServiceHost.exe
+D:\OneDrive\Ywang\Projects\WcfService4\EmployeeServiceHost\obj\Debug\EmployeeServiceHost.pdb
