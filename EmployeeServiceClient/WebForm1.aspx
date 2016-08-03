@@ -27,9 +27,12 @@
             <tr>
                 <td>
                     <asp:TextBox ID="tbxId" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ErrorMessage="Id is Required" ControlToValidate="tbxId" runat="server" />
                 </td>
                 <td>
                     <asp:TextBox ID="tbxName" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ErrorMessage="Name is Required" ControlToValidate="tbxName" runat="server" />
+                    <asp:RangeValidator ErrorMessage="Name Length must be 3 - 20" ControlToValidate="tbxName" runat="server" MaximumValue="3" MinimumValue="50" />
                 </td>
                 <td>
                     <asp:TextBox ID="tbxGender" runat="server"></asp:TextBox>
@@ -46,10 +49,8 @@
                     <asp:Button ID="btnSaveEmployee" runat="server" Text="Save" OnClick="btnSaveEmployee_Click" />
                 </td>
             </tr>
-            <tr>
                 <asp:Label ID="lblStatus" runat="server"></asp:Label>
-            </tr>
-        </table> 
+            </table> 
     </div>
     </form>
 </body>
